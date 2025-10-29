@@ -1,0 +1,67 @@
+.experience-header {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.experience-header h3 {
+  color: #00d9ff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.company-info {
+  color: #b0b8c9;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.experience-period {
+  color: #8892b0;
+  font-size: 0.9rem;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.1) 0%, rgba(0, 166, 255, 0.1) 100%);
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 217, 255, 0.2);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0, 217, 255, 0.2);
+  border-color: rgba(0, 217, 255, 0.4);
+}
+
+.experience-card h4 {
+  color: #00d9ff;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.experience-card p {
+  color: #b0b8c9;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .experience-header h3 {
+    font-size: 1.5rem;
+  }
+}

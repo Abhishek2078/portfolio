@@ -1,0 +1,74 @@
+.education-container {
+  display: grid;
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background: linear-gradient(135deg, rgba(0, 217, 255, 0.1) 0%, rgba(0, 166, 255, 0.1) 100%);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 217, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 40px rgba(0, 217, 255, 0.2);
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.education-header h3 {
+  color: #00d9ff;
+  font-size: 1.5rem;
+}
+
+.location {
+  color: #8892b0;
+  font-size: 0.9rem;
+}
+
+.degree {
+  color: #b0b8c9;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.education-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gpa {
+  color: #00d9ff;
+  font-weight: 600;
+}
+
+.period {
+  color: #8892b0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .education-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
