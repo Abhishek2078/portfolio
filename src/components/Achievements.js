@@ -6,7 +6,7 @@ const Achievements = () => {
     {
       title: "Teaching Assistant, Jain University",
       description: "Labs and coursework for 150+ B.Tech students in Software & Data Engineering.",
-      period: "May 2024 - Present"
+      period: "May 2023 - May 2024"
     },
     {
       title: "Student Placement Coordinator, Jain University",
